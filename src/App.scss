@@ -1,0 +1,45 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.activeClicked{
+    transition: .1s;
+}
+.activeClicked:hover{
+    opacity: .8 ;
+}
+.navActive{
+    color:#02c1db !important;
+}
+a:active{
+    background-color: none !important;
+    outline: none !important;
+    text-decoration: none !important;
+}
+
+
+
+.activeClickedKota{
+    transition: .1s;
+
+    p{
+        transition: .2s;
+    }
+}
+.activeClickedKota:active{
+    opacity: .7 !important ;
+}
+.activeClickedKota:hover{
+    opacity: .8 !important;
+
+    p{
+        transform: scale(.9) !important;
+    }
+}
+
+
+.stars{    
+    
+}
+
+
